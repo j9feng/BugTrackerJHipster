@@ -65,7 +65,7 @@
               [ngValue]="invoiceOption.id === editForm.get('invoice')!.value?.id ? editForm.get('invoice')!.value : invoiceOption"
               *ngFor="let invoiceOption of invoicesSharedCollection; trackBy: trackInvoiceById"
             >
-              {{ invoiceOption.id }}
+              {{ invoiceOption.code }}
             </option>
           </select>
         </div>

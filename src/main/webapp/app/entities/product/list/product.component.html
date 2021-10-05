@@ -42,7 +42,7 @@
             <span jhiTranslate="storeApp.product.productSize">Product Size</span> <fa-icon icon="sort"></fa-icon>
           </th>
           <th scope="col" jhiSortBy="image"><span jhiTranslate="storeApp.product.image">Image</span> <fa-icon icon="sort"></fa-icon></th>
-          <th scope="col" jhiSortBy="productCategory.id">
+          <th scope="col" jhiSortBy="productCategory.name">
             <span jhiTranslate="storeApp.product.productCategory">Product Category</span> <fa-icon icon="sort"></fa-icon>
           </th>
           <th scope="col"></th>
@@ -65,7 +65,7 @@
           </td>
           <td>
             <div *ngIf="product.productCategory">
-              <a [routerLink]="['/product-category', product.productCategory?.id, 'view']">{{ product.productCategory?.id }}</a>
+              <a [routerLink]="['/product-category', product.productCategory?.id, 'view']">{{ product.productCategory?.name }}</a>
             </div>
           </td>
           <td class="text-right">

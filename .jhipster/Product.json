@@ -33,7 +33,8 @@
       "relationshipType": "many-to-one",
       "otherEntityName": "productCategory",
       "otherEntityRelationshipName": "product",
-      "relationshipName": "productCategory"
+      "relationshipName": "productCategory",
+      "otherEntityField": "name"
     }
   ],
   "javadoc": "Product sold by the Online store",

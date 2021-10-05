@@ -54,6 +54,7 @@
       "otherEntityName": "user",
       "otherEntityRelationshipName": "customer",
       "relationshipName": "user",
+      "otherEntityField": "login",
       "ownerSide": true
     },
     {

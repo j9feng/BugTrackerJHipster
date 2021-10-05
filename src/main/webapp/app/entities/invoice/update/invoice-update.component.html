@@ -160,7 +160,7 @@
               [ngValue]="productOrderOption.id === editForm.get('order')!.value?.id ? editForm.get('order')!.value : productOrderOption"
               *ngFor="let productOrderOption of productOrdersSharedCollection; trackBy: trackProductOrderById"
             >
-              {{ productOrderOption.id }}
+              {{ productOrderOption.code }}
             </option>
           </select>
         </div>

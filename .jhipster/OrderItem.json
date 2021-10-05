@@ -25,13 +25,15 @@
       "relationshipType": "many-to-one",
       "otherEntityName": "product",
       "otherEntityRelationshipName": "orderItem",
-      "relationshipName": "product"
+      "relationshipName": "product",
+      "otherEntityField": "name"
     },
     {
       "relationshipType": "many-to-one",
       "otherEntityName": "productOrder",
       "otherEntityRelationshipName": "orderItem",
-      "relationshipName": "order"
+      "relationshipName": "order",
+      "otherEntityField": "code"
     }
   ],
   "entityTableName": "order_item",

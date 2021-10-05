@@ -35,7 +35,8 @@
       "relationshipType": "many-to-one",
       "otherEntityName": "customer",
       "otherEntityRelationshipName": "order",
-      "relationshipName": "customer"
+      "relationshipName": "customer",
+      "otherEntityField": "email"
     }
   ],
   "entityTableName": "product_order",

@@ -20,7 +20,8 @@
       "relationshipType": "many-to-one",
       "otherEntityName": "invoice",
       "otherEntityRelationshipName": "shipment",
-      "relationshipName": "invoice"
+      "relationshipName": "invoice",
+      "otherEntityField": "code"
     }
   ],
   "entityTableName": "shipment",

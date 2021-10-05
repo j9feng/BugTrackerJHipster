@@ -151,7 +151,7 @@
               [ngValue]="userOption.id === editForm.get('user')!.value?.id ? editForm.get('user')!.value : userOption"
               *ngFor="let userOption of usersSharedCollection; trackBy: trackUserById"
             >
-              {{ userOption.id }}
+              {{ userOption.login }}
             </option>
           </select>
         </div>
